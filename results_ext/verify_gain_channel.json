@@ -1,0 +1,120 @@
+[
+ {
+  "r1": 0.6,
+  "r2": 0.6,
+  "gain": 0.9,
+  "g": 0.9,
+  "input": "fock01",
+  "trace_distance": 5.244163489178527e-06,
+  "engine_trace": 0.9999999706505276,
+  "out_trace": 1.0000000000000004
+ },
+ {
+  "r1": 0.6,
+  "r2": 0.6,
+  "gain": 0.9,
+  "g": 0.9,
+  "input": "coherent",
+  "trace_distance": 3.258131612288108e-06,
+  "engine_trace": 0.9999999706221908,
+  "out_trace": 1.0
+ },
+ {
+  "r1": 0.6,
+  "r2": 0.6,
+  "gain": 1.1,
+  "g": 1.1,
+  "input": "fock01",
+  "trace_distance": 3.347053044632934e-06,
+  "engine_trace": 0.9999999680509633,
+  "out_trace": 0.9999999999999998
+ },
+ {
+  "r1": 0.6,
+  "r2": 0.6,
+  "gain": 1.1,
+  "g": 1.1,
+  "input": "coherent",
+  "trace_distance": 1.7991159974917022e-06,
+  "engine_trace": 0.9999999679469728,
+  "out_trace": 0.9999999999999978
+ },
+ {
+  "r1": 0.6,
+  "r2": 0.4,
+  "eta": 0.9,
+  "eta_d": 0.95,
+  "sigma_phi": 0.15,
+  "gain": 0.8,
+  "g": 0.8,
+  "input": "fock01",
+  "trace_distance": 9.240657713465739e-07,
+  "engine_trace": 0.9999999867417663,
+  "out_trace": 1.0000000000000002
+ },
+ {
+  "r1": 0.6,
+  "r2": 0.4,
+  "eta": 0.9,
+  "eta_d": 0.95,
+  "sigma_phi": 0.15,
+  "gain": 0.8,
+  "g": 0.8,
+  "input": "coherent",
+  "trace_distance": 1.2943994798069676e-06,
+  "engine_trace": 0.9999999868421141,
+  "out_trace": 0.9999999999999996
+ },
+ {
+  "r1": 0.5,
+  "r2": 0.7,
+  "eta": 0.95,
+  "eta_d": 0.9,
+  "gain": 1.15,
+  "g": 1.15,
+  "input": "fock01",
+  "trace_distance": 7.736469262235849e-06,
+  "engine_trace": 0.999999658494092,
+  "out_trace": 0.999999999999987
+ },
+ {
+  "r1": 0.5,
+  "r2": 0.7,
+  "eta": 0.95,
+  "eta_d": 0.9,
+  "gain": 1.15,
+  "g": 1.15,
+  "input": "coherent",
+  "trace_distance": 4.629006142753822e-06,
+  "engine_trace": 0.9999996291666996,
+  "out_trace": 0.9999999999991269
+ },
+ {
+  "r1": 0.6,
+  "r2": 0.4,
+  "eta": 0.9,
+  "eta_d": 0.95,
+  "sigma_phi": 0.15,
+  "gain": null,
+  "g": 0.9486832980505138,
+  "input": "fock01",
+  "trace_distance": 8.491025309803647e-07,
+  "engine_trace": 0.9999999855775866,
+  "out_trace": 0.9999999999999993,
+  "td_vs_library": 1.1031571834618114e-11
+ },
+ {
+  "r1": 0.6,
+  "r2": 0.4,
+  "eta": 0.9,
+  "eta_d": 0.95,
+  "sigma_phi": 0.15,
+  "gain": null,
+  "g": 0.9486832980505138,
+  "input": "coherent",
+  "trace_distance": 9.777428964379477e-07,
+  "engine_trace": 0.9999999856213346,
+  "out_trace": 0.9999999999999991,
+  "td_vs_library": 5.257259807700279e-11
+ }
+]

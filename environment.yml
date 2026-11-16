@@ -1,0 +1,17 @@
+# Recreate with:  conda env create -f environment.yml  &&  conda activate qcsim
+name: qcsim
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - qutip=5.3.1
+  - numpy=2.5.4
+  - scipy=1.18.1
+  - matplotlib=3.11.2
+  - tectonic=0.17.0     # LaTeX engine for report/ (Overleaf-compatible source)
+  - mpmath=1.3.0       # high-precision reference values in tests
+  - pytest=9.2.0
+  - jupyter
+  - ipykernel
+  - pypdf=6.21.4      # reading the course book
+  - pymupdf=2.0       # course book text extraction (Hebrew)

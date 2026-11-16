@@ -1,0 +1,135 @@
+E1 sigma where 'GKP square, ideal' crosses Fock (projection): nan
+E1 1-F at sigma=0.1 'GKP square, ideal': 0.01793
+E1 1-F at sigma=0.2 'GKP square, ideal': 0.0955
+E1 1-F at sigma=0.3 'GKP square, ideal': 0.1713
+E1 1-F at sigma=0.4 'GKP square, ideal': 0.229
+E1 sigma where 'GKP square, Petz' crosses Fock (projection): 0.0604
+E1 1-F at sigma=0.1 'GKP square, Petz': 0.003896
+E1 1-F at sigma=0.2 'GKP square, Petz': 0.02539
+E1 1-F at sigma=0.3 'GKP square, Petz': 0.05988
+E1 1-F at sigma=0.4 'GKP square, Petz': 0.1075
+E1 sigma where 'GKP hexagonal, ideal' crosses Fock (projection): 0.03571
+E1 1-F at sigma=0.1 'GKP hexagonal, ideal': 0.01629
+E1 1-F at sigma=0.2 'GKP hexagonal, ideal': 0.09285
+E1 1-F at sigma=0.3 'GKP hexagonal, ideal': 0.1704
+E1 1-F at sigma=0.4 'GKP hexagonal, ideal': 0.2283
+E1 sigma where 'GKP hexagonal, Petz' crosses Fock (projection): 0.06705
+E1 1-F at sigma=0.1 'GKP hexagonal, Petz': 0.003834
+E1 1-F at sigma=0.2 'GKP hexagonal, Petz': 0.03059
+E1 1-F at sigma=0.3 'GKP hexagonal, Petz': 0.08903
+E1 1-F at sigma=0.4 'GKP hexagonal, Petz': 0.1594
+E1 sigma where '4-leg cat (α=2.25), parity' crosses Fock (projection): nan
+E1 1-F at sigma=0.1 '4-leg cat (α=2.25), parity': 0.02356
+E1 1-F at sigma=0.2 '4-leg cat (α=2.25), parity': 0.07798
+E1 1-F at sigma=0.3 '4-leg cat (α=2.25), parity': 0.138
+E1 1-F at sigma=0.4 '4-leg cat (α=2.25), parity': 0.1918
+E1 sigma where '4-leg cat (α=2.25), Petz' crosses Fock (projection): 0.2407
+E1 1-F at sigma=0.1 '4-leg cat (α=2.25), Petz': 0.0002615
+E1 1-F at sigma=0.2 '4-leg cat (α=2.25), Petz': 0.004124
+E1 1-F at sigma=0.3 '4-leg cat (α=2.25), Petz': 0.02462
+E1 1-F at sigma=0.4 '4-leg cat (α=2.25), Petz': 0.07107
+E1 sigma where 'Fock qubit, projection' crosses Fock (projection): 0.02
+E1 1-F at sigma=0.1 'Fock qubit, projection': 0.001663
+E1 1-F at sigma=0.2 'Fock qubit, projection': 0.0066
+E1 1-F at sigma=0.3 'Fock qubit, projection': 0.01467
+E1 1-F at sigma=0.4 'Fock qubit, projection': 0.02563
+E1 sigma where 'Fock qubit, Petz' crosses Fock (projection): nan
+E1 1-F at sigma=0.1 'Fock qubit, Petz': 0.003317
+E1 1-F at sigma=0.2 'Fock qubit, Petz': 0.01307
+E1 1-F at sigma=0.3 'Fock qubit, Petz': 0.02869
+E1 1-F at sigma=0.4 'Fock qubit, Petz': 0.04929
+E2 dB where 'GKP square, ideal' crosses Fock (projection): nan
+E2 1-F at 6 dB 'GKP square, ideal': 0.1308
+E2 1-F at 10 dB 'GKP square, ideal': 0.02631
+E2 1-F at 16 dB 'GKP square, ideal': 0.001087
+E2 dB where 'GKP square, Petz' crosses Fock (projection): 4.141
+E2 1-F at 6 dB 'GKP square, Petz': 0.1566
+E2 1-F at 10 dB 'GKP square, Petz': 0.02327
+E2 1-F at 16 dB 'GKP square, Petz': 0.0002477
+E2 dB where 'GKP hexagonal, ideal' crosses Fock (projection): nan
+E2 1-F at 6 dB 'GKP hexagonal, ideal': 0.1245
+E2 1-F at 10 dB 'GKP hexagonal, ideal': 0.02209
+E2 1-F at 16 dB 'GKP hexagonal, ideal': 0.0006257
+E2 dB where 'GKP hexagonal, Petz' crosses Fock (projection): 3.996
+E2 1-F at 6 dB 'GKP hexagonal, Petz': 0.1489
+E2 1-F at 10 dB 'GKP hexagonal, Petz': 0.01884
+E2 1-F at 16 dB 'GKP hexagonal, Petz': 0.0001146
+E2 dB where '4-leg cat (α=2.25), parity' crosses Fock (projection): nan
+E2 1-F at 6 dB '4-leg cat (α=2.25), parity': 0.3321
+E2 1-F at 10 dB '4-leg cat (α=2.25), parity': 0.228
+E2 1-F at 16 dB '4-leg cat (α=2.25), parity': 0.08382
+E2 dB where '4-leg cat (α=2.25), Petz' crosses Fock (projection): nan
+E2 1-F at 6 dB '4-leg cat (α=2.25), Petz': 0.2983
+E2 1-F at 10 dB '4-leg cat (α=2.25), Petz': 0.1924
+E2 1-F at 16 dB '4-leg cat (α=2.25), Petz': 0.0572
+E2 dB where 'Fock qubit, projection' crosses Fock (projection): 2
+E2 1-F at 6 dB 'Fock qubit, projection': 0.202
+E2 1-F at 10 dB 'Fock qubit, projection': 0.0993
+E2 1-F at 16 dB 'Fock qubit, projection': 0.02809
+E2 dB where 'Fock qubit, Petz' crosses Fock (projection): nan
+E2 1-F at 6 dB 'Fock qubit, Petz': 0.2325
+E2 1-F at 10 dB 'Fock qubit, Petz': 0.1251
+E2 1-F at 16 dB 'Fock qubit, Petz': 0.03798
+E1 max certified gap (F_avg) '4-leg cat (α=2.25), optimal': 5.569e-08
+E1 x where cat optimal crosses Fock optimal: 0.2717
+E1 min ratio cat_opt/Fock_opt: 0.07088
+E1 1-F at sigma_phi=0.1 '4-leg cat (α=2.25), optimal': 0.0002114
+E1 1-F at sigma_phi=0.2 '4-leg cat (α=2.25), optimal': 0.00318
+E1 1-F at sigma_phi=0.3 '4-leg cat (α=2.25), optimal': 0.01815
+E1 1-F at sigma_phi=0.4 '4-leg cat (α=2.25), optimal': 0.05071
+E1 max certified gap (F_avg) 'Fock qubit (break-even), optimal': 1.373e-10
+E1 1-F at sigma_phi=0.1 'Fock qubit (break-even), optimal': 0.001663
+E1 1-F at sigma_phi=0.2 'Fock qubit (break-even), optimal': 0.0066
+E1 1-F at sigma_phi=0.3 'Fock qubit (break-even), optimal': 0.01467
+E1 1-F at sigma_phi=0.4 'Fock qubit (break-even), optimal': 0.02563
+E2 max certified gap (F_avg) '4-leg cat (α=2.25), optimal': 9.654e-08
+E2 x where cat optimal crosses Fock optimal: nan
+E2 min ratio cat_opt/Fock_opt: 1.594
+E2 1-F at db=10 '4-leg cat (α=2.25), optimal': 0.1496
+E2 1-F at db=16 '4-leg cat (α=2.25), optimal': 0.0494
+E2 max certified gap (F_avg) 'Fock qubit (break-even), optimal': 5.403e-07
+E2 1-F at db=6 'Fock qubit (break-even), optimal': 0.1734
+E2 1-F at db=10 'Fock qubit (break-even), optimal': 0.08534
+E2 1-F at db=16 'Fock qubit (break-even), optimal': 0.0241
+E1 GKP optimum lower bound (Barnum-Knill) at 0.1 'GKP square, Petz': 0.001951
+E1 GKP optimum lower bound (Barnum-Knill) at 0.2 'GKP square, Petz': 0.01282
+E1 GKP optimum lower bound (Barnum-Knill) at 0.3 'GKP square, Petz': 0.03064
+E1 GKP optimum lower bound (Barnum-Knill) at 0.4 'GKP square, Petz': 0.0561
+E1 GKP optimum lower bound (Barnum-Knill) at 0.1 'GKP hexagonal, Petz': 0.00192
+E1 GKP optimum lower bound (Barnum-Knill) at 0.2 'GKP hexagonal, Petz': 0.01547
+E1 GKP optimum lower bound (Barnum-Knill) at 0.3 'GKP hexagonal, Petz': 0.04611
+E1 GKP optimum lower bound (Barnum-Knill) at 0.4 'GKP hexagonal, Petz': 0.08513
+E2 GKP optimum lower bound (Barnum-Knill) at 6 'GKP square, Petz': 0.08353
+E2 GKP optimum lower bound (Barnum-Knill) at 10 'GKP square, Petz': 0.01174
+E2 GKP optimum lower bound (Barnum-Knill) at 16 'GKP square, Petz': 0.0001239
+E2 GKP optimum lower bound (Barnum-Knill) at 6 'GKP hexagonal, Petz': 0.07912
+E2 GKP optimum lower bound (Barnum-Knill) at 10 'GKP hexagonal, Petz': 0.009485
+E2 GKP optimum lower bound (Barnum-Knill) at 16 'GKP hexagonal, Petz': 5.729e-05
+E3 'GKP square, ideal' best g: 0.99
+E3 'GKP square, ideal' 1-F at best g: 0.02596
+E3 'GKP square, ideal' 1-F at g=0.9: 0.06997
+E3 'GKP square, ideal' 1-F at g=0.95: 0.0339
+E3 'GKP square, ideal' 1-F at g=1.0: 0.02631
+E3 'GKP square, ideal' 1-F at g=1.05: 0.04307
+E3 'GKP square, ideal' 1-F at g=1.1: 0.09093
+E3 'GKP square, Petz' best g: 1.15
+E3 'GKP square, Petz' 1-F at best g: 0.01564
+E3 'GKP square, Petz' 1-F at g=0.9: 0.03438
+E3 'GKP square, Petz' 1-F at g=0.95: 0.0275
+E3 'GKP square, Petz' 1-F at g=1.0: 0.02327
+E3 'GKP square, Petz' 1-F at g=1.05: 0.01971
+E3 'GKP square, Petz' 1-F at g=1.1: 0.01742
+E3 'Fock qubit, projection' best g: 0.92
+E3 'Fock qubit, projection' 1-F at best g: 0.08311
+E3 'Fock qubit, projection' 1-F at g=0.9: 0.08467
+E3 'Fock qubit, projection' 1-F at g=0.95: 0.08518
+E3 'Fock qubit, projection' 1-F at g=1.0: 0.0993
+E3 'Fock qubit, projection' 1-F at g=1.05: 0.1241
+E3 'Fock qubit, projection' 1-F at g=1.1: 0.1559
+E3 'Fock qubit, Petz' best g: 0.97
+E3 'Fock qubit, Petz' 1-F at best g: 0.1239
+E3 'Fock qubit, Petz' 1-F at g=0.9: 0.1358
+E3 'Fock qubit, Petz' 1-F at g=0.95: 0.1251
+E3 'Fock qubit, Petz' 1-F at g=1.0: 0.1251
+E3 'Fock qubit, Petz' 1-F at g=1.05: 0.1338
+E3 'Fock qubit, Petz' 1-F at g=1.1: 0.149

@@ -1,0 +1,27 @@
+% Figure 2 of the submitted report: hexagonal GKP lattice and its correction cell (from report_v15/code.tex).
+% Needs \usepackage{tikz,bm} and \usetikzlibrary{calc}. Caption in the report:
+% \caption{Hexagonal GKP in the $(q,p)$ plane. Dots: logical lattice $m\bm a+n\bm b$. Solid hexagon: {correction} cell of
+% the ideal decoder (inradius $0.952$). Dashed {parallelogram}: the cell obtained by correcting the two syndromes separately
+% (inradius $0.825$). Both have area $\pi$.}
+  \begin{tikzpicture}[scale=1.25]
+    \def\l{1.9046}
+    % lattice points m a + n b
+    \foreach \m in {-2,...,2}{\foreach \n in {-2,...,2}{
+      \pgfmathsetmacro{\x}{\l*(\m-0.5*\n)}\pgfmathsetmacro{\y}{\l*0.8660*\n}
+      \pgfmathparse{abs(\x)<3.3 && abs(\y)<2.2 ? 1 : 0}
+      \ifnum\pgfmathresult=1 \fill[black] (\x,\y) circle (1.4pt); \fi}}
+    % hexagon (ideal correction cell)
+    \draw[blue!55!black, thick] (30:1.0996) -- (90:1.0996) -- (150:1.0996) -- (210:1.0996) -- (270:1.0996) -- (330:1.0996) -- cycle;
+    % parallelogram (separate Q/P correction)
+    \draw[noisedraw, thick, dashed] (0.4762,0.8247) -- (-1.4285,0.8247) -- (-0.4762,-0.8247) -- (1.4285,-0.8247) -- cycle;
+    % inscribed circles
+    \draw[blue!55!black, thin] (0,0) circle (0.9523);
+    \draw[noisedraw, thin, dotted] (0,0) circle (0.8247);
+    % logical vectors
+    \draw[->, thick] (0,0) -- (\l,0) node[below right] {$\bm a\,(\bar X)$};
+    \draw[->, thick] (0,0) -- (-0.9523,1.6495) node[above left] {$\bm b\,(\bar Z)$};
+    \draw[->, thick] (0,0) -- (0.9523,1.6495) node[above right] {$\bm a+\bm b\,(\bar Y)$};
+    % axes
+    \draw[gray!60, ->] (-3.0,0) -- (3.0,0) node[right, black] {$q$};
+    \draw[gray!60, ->] (0,-2.0) -- (0,2.1) node[above, black] {$p$};
+  \end{tikzpicture}

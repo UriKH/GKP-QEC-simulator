@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+context/
+.DS_Store
+report/generated/
+.claude/
+CLAUDE.md
+results_ext/figures/

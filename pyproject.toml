@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cvqec"
+version = "0.1.0"
+description = "CV teleportation simulator for testing bosonic error-correcting codes (GKP, cat) in QuTiP"
+requires-python = ">=3.11"
+dependencies = ["qutip>=5.3", "numpy", "scipy", "matplotlib"]
+
+[tool.setuptools.packages.find]
+include = ["cvqec*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

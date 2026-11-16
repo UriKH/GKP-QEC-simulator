@@ -1,0 +1,57 @@
+% Figure 3 of the submitted report: the teleportation circuit, components numbered 1-14 as in the text. Needs tikz with calc, decorations.pathreplacing, shapes.misc and colours noisefill (FBE9E1), noisedraw (B5532A), ecfill (E3EEF6).
+\begin{tikzpicture}[
+    x=1cm, y=1cm, font=\small,
+    gate/.style={draw, fill=white, minimum height=0.62cm, minimum width=0.9cm, inner sep=2pt, rounded corners=1.5pt},
+    noise/.style={gate, fill=noisefill, draw=noisedraw},
+    meas/.style={gate, minimum width=1.05cm},
+    ec/.style={gate, fill=ecfill, minimum height=0.8cm, align=center},
+    num/.style={circle, draw, inner sep=0.6pt, font=\scriptsize, fill=white},
+    cl/.style={double, double distance=1.2pt},
+  ]
+  \def\yin{0} \def\ya{-1.25} \def\yb{-2.5}
+  % rails
+  \draw (0.2,\yin) -- (7.5,\yin);
+  \draw (0.2,\ya) -- (7.5,\ya);
+  \draw (0.2,\yb) -- (15.6,\yb);
+  \node[left] at (0.2,\yin) {$\ket{\psi_L}$};
+  \node[left] at (0.2,\ya) {$\ket{0}$};
+  \node[left] at (0.2,\yb) {$\ket{0}$};
+  \node[left, font=\scriptsize, text=black!60] at (-0.65,\yin) {in};
+  \node[left, font=\scriptsize, text=black!60] at (-0.65,\ya) {a};
+  \node[left, font=\scriptsize, text=black!60] at (-0.65,\yb) {b};
+  % 1 encoder
+  \node[gate] (enc) at (1.0,\yin) {Enc}; \node[num] at ($(enc.north)+(0,0.22)$) {1};
+  % 2-3 squeezers
+  \node[gate] (s1) at (1.9,\ya) {$S(r_1)$}; \node[num] at ($(s1.north)+(0,0.22)$) {2};
+  \node[gate] (s2) at (1.9,\yb) {$S(-r_2)$}; \node[num] at ($(s2.south)-(0,0.22)$) {3};
+  % 4 EPR beam splitter
+  \draw[thick] (3.2,\ya) -- (3.2,\yb);
+  \node[gate, minimum width=0.75cm] (bs1) at (3.2,{(\ya+\yb)/2}) {$B\prt{\frac{\pi}{4}}$}; \node[num] at ($(bs1.east)+(0.3,0)$) {4};
+  % 5 loss
+  \node[noise] (loss) at (4.6,\yb) {$\mathcal{L}_\eta$}; \node[num] at ($(loss.south)-(0,0.22)$) {5};
+  % 6 Bell beam splitter
+  \draw[thick] (5.4,\yin) -- (5.4,\ya);
+  \node[gate, minimum width=0.75cm] (bs2) at (5.4,{(\yin+\ya)/2}) {$B\prt{\frac{\pi}{4}}$}; \node[num] at ($(bs2.west)-(0.3,0)$) {6};
+  % 7 rotation
+  \node[gate] (rot) at (6.6,\yin) {$R(\frac{\pi}{2})$}; \node[num] at ($(rot.north)+(0,0.22)$) {7};
+  % 8-9 homodynes
+  \node[meas] (hp) at (8.0,\yin) {$\hat q\,|\,\eta_d$}; \node[num] at ($(hp.north)+(0,0.22)$) {9};
+  \node[meas] (hq) at (8.0,\ya) {$\hat q\,|\,\eta_d$}; \node[num] at ($(hq.north)+(0,0.22)$) {8};
+  \node[right, font=\scriptsize] at (hp.east) {$m_p$};
+  \node[right, font=\scriptsize] at (hq.east) {$m_q$};
+  % 10-11 feed-forward
+  \node[gate] (fx) at (9.55,\yb) {$X(-\sqrt2 g\,m_q)$}; \node[num] at ($(fx.south)-(0,0.22)$) {10};
+  \node[gate] (fz) at (11.75,\yb) {$Z(\sqrt2 g\,m_p)$}; \node[num] at ($(fz.south)-(0,0.22)$) {11};
+  \draw[cl] ($(hq.east)+(0.5,0)$) -| (fx.north);
+  \draw[cl] ($(hp.east)+(0.5,0)$) -| (fz.north);
+  % 12 dephasing
+  \node[noise] (deph) at (13.3,\yb) {$\mathcal{D}_{\sigma_\phi}$}; \node[num] at ($(deph.south)-(0,0.22)$) {12};
+  % 13-14 Steane EC
+  \node[ec] (ec) at (14.75,\yb) {Steane\\[-1pt]EC}; \node[num, rounded rectangle, inner xsep=2pt] at ($(ec.south)-(0,0.25)$) {13--14};
+  \node[right] at (15.6,\yb) {$\rho_{\mathrm{out}}$};
+  % EPR label
+  \node[font=\scriptsize, text=black!60, align=center] at (2.55,{\yb-0.95}) {EPR source};
+  \draw[black!40, decorate, decoration={brace, amplitude=4pt, mirror}] (1.35,{\yb-0.67}) -- (3.65,{\yb-0.67});
+  \node[font=\scriptsize, text=black!60] at (6.75,1.25) {Bell measurement};
+  \draw[black!40, decorate, decoration={brace, amplitude=4pt}] (5.0,0.95) -- (8.6,0.95);
+\end{tikzpicture}
